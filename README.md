@@ -1,8 +1,6 @@
 # docker-net-radio-archive
 🐋 Docker image: SlashNephy/net-radio-archive (folked from yayugu/net-radio-archive)
 
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/slashnephy/net-radio-archive/latest)](https://hub.docker.com/r/slashnephy/net-radio-archive)
-
 `docker-compose.yml`
 
 ```yml
@@ -23,7 +21,7 @@ services:
 
   net-radio-archive:
     container_name: net-radio-archive
-    image: slashnephy/net-radio-archive:latest
+    image: ghcr.io/slashnephy/net-radio-archive:latest
     restart: always
     volumes:
       - /etc/localtime:/etc/localtime:ro
